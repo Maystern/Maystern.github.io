@@ -509,7 +509,6 @@ $xy$ 平面上有一个边平行于 $x$ 轴和 $y$ 轴的矩形。其中三个�
 	cout <span class="token operator">&lt;&lt;</span> ansx <span class="token operator">&lt;&lt;</span> <span class="token string">" "</span> <span class="token operator">&lt;&lt;</span> ansy <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
 	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
 <h2 id="B-Get-Closer"><a href="#B-Get-Closer" class="headerlink" title="B - Get Closer"></a><strong>B - Get Closer</strong></h2><h3 id="题意-1"><a href="#题意-1" class="headerlink" title="题意"></a>题意</h3><blockquote>
 <p>从 $(0,0)$ 向着方向向量 $(a,b)$ 走 $1$ 个单位，所在的坐标为多少。（精确到小数点后 $6$ 位）</p>
 <p>数据范围： $0 \leq a,b \leq 1000, (a,b) \ne (0,0)$</p>
@@ -526,10 +525,9 @@ $xy$ 平面上有一个边平行于 $x$ 轴和 $y$ 轴的矩形。其中三个�
 	<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%.7lf %.7lf\n"</span><span class="token punctuation">,</span> x <span class="token operator">/</span> t<span class="token punctuation">,</span> y <span class="token operator">/</span> t<span class="token punctuation">)</span><span class="token punctuation">;</span>
 	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
 <h2 id="C-Coupon"><a href="#C-Coupon" class="headerlink" title="C - Coupon"></a><strong>C - Coupon</strong></h2><h3 id="题意-2"><a href="#题意-2" class="headerlink" title="题意"></a>题意</h3><blockquote>
 <p>有 $n$ 个商品，每个商品的价格为$a_i$。有 $k$ 张优惠券，每张优惠券可以让某个商品的价格降低 $x$。</p>
-<p>即商品原价为 $a$ ，使用 $k$ 张优惠券后，商品的现价为 $\max{a - kx, 0}$。</p>
+<p>即商品原价为 $a$ ，使用 $k$ 张优惠券后，商品的现价为 $\max\{a - kx, 0\}$。</p>
 <p>求使用优惠券买下所有商品所需要的价格。</p>
 <p>数据范围：$1 \leq n \leq 2\times 10^5, 1 \leq k,x \leq 10^9, 1 \leq a_i \leq 10^9$。</p>
 </blockquote>
@@ -559,7 +557,6 @@ $xy$ 平面上有一个边平行于 $x$ 轴和 $y$ 轴的矩形。其中三个�
 	cout <span class="token operator">&lt;&lt;</span> ans <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
 	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
 <h2 id="D-2-variable-Function"><a href="#D-2-variable-Function" class="headerlink" title="D - 2-variable Function"></a><strong>D - 2-variable Function</strong></h2><h3 id="题意-3"><a href="#题意-3" class="headerlink" title="题意"></a>题意</h3><blockquote>
 <p>设 $f(a,b) = a^3 + a^2 b +ab^2 + b^3 (a,b \in N)$。</p>
 <p>给出 $n$ ，求出最小的 $x$ 满足：$x \geq n, x = f(a,b)$。</p>
@@ -589,7 +586,6 @@ $xy$ 平面上有一个边平行于 $x$ 轴和 $y$ 轴的矩形。其中三个�
 	cout <span class="token operator">&lt;&lt;</span> ans <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>		
 	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
 <h2 id="E-Bishop-2"><a href="#E-Bishop-2" class="headerlink" title="E - Bishop 2"></a><strong>E - Bishop 2</strong></h2><h3 id="题意-4"><a href="#题意-4" class="headerlink" title="题意"></a>题意</h3><blockquote>
 <p>$n \times n$ 的棋盘，能走的地方为<code>.</code>不能走的地方为<code>#</code>。</p>
 <p>从 $(A_x,A_y)$ 出发走到 $(B_x, B_y)$ 最短路长度为多少（如果不能走到输出<code>-1</code>）。</p>
@@ -639,7 +635,6 @@ $xy$ 平面上有一个边平行于 $x$ 轴和 $y$ 轴的矩形。其中三个�
 	cout <span class="token operator">&lt;&lt;</span> <span class="token operator">-</span><span class="token number">1</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
 	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
 <h2 id="F-typewriter"><a href="#F-typewriter" class="headerlink" title="F - typewriter"></a><strong>F - typewriter</strong></h2><h3 id="题意-5"><a href="#题意-5" class="headerlink" title="题意"></a>题意</h3><blockquote>
 <p>有 $n$ 个字符串$s_i$，要求使用同一个字符串中的字母构造一个长度为 $l$ 的字符串。</p>
 <p>有多少种不同的字符串可以构造，输出答案对 $998244353$ 取模的结果。</p>
@@ -648,7 +643,7 @@ $xy$ 平面上有一个边平行于 $x$ 轴和 $y$ 轴的矩形。其中三个�
 <h3 id="题解-5"><a href="#题解-5" class="headerlink" title="题解"></a>题解</h3><p>字符串$s$中不同字母的个数为 $c$，使用其中的字母构造一个长度为 $l$ 的字符串个数为 $l^c$。</p>
 <p>使用第 $i$ 个字符串字符可以构造出的长度为 $l$ 的字符串的集合为 $S_i$。</p>
 <p>那么答案为$|\bigcup _{i = 1}^{n} S_i|$。</p>
-<p>根据容斥原理：$|\bigcup <em>{i = 1}^{n} S_i| = \sum\limits</em>{i = 1} ^{n} (-1)^{k - 1} \sum\limits_{1\leq i_1&lt; i_2 &lt; … &lt; i_k \leq n} |\bigcap <em>{i = 1}^{k} S</em>{i_k} |$。</p>
+<p>根据容斥原理：$|\bigcup _{i = 1}^{n} S_i| = \sum\limits_{i = 1} ^{n} (-1)^{k - 1} \sum\limits_{1\leq i_1&lt; i_2 &lt; … &lt; i_k \leq n} |\bigcap _{i = 1}^{k} S_{i_k} |$。</p>
 <p>枚举 $n$ 个数选 $k (1 \leq k \leq n)$ 个数后（子集枚举）：</p>
 <p>问题转化为求出使用 $k$ 个字符串，都能构造出长度为 $l$ 的字符串个数为多少。</p>
 <p>答案显然是这 $k$ 个字符串都有的字符（设个数为 $d$），构造出长度为 $l$ 的字符串个数，是$l^d$个。</p>
@@ -690,7 +685,6 @@ string s<span class="token punctuation">[</span>N<span class="token punctuation"
 	cout <span class="token operator">&lt;&lt;</span> ans <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
 	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
 <h2 id="G-Game-on-Tree-3"><a href="#G-Game-on-Tree-3" class="headerlink" title="G - Game on Tree 3"></a>G - <strong>Game on Tree 3</strong></h2><h3 id="题意-6"><a href="#题意-6" class="headerlink" title="题意"></a>题意</h3><blockquote>
 <p>小 $A$ 和小 $B$ 在玩游戏。有一棵 $n$ 个节点的树，节点 $1$ 为根，节点$2 … n$ 都有权值 $a_i$。</p>
 <p>初始棋子在 $1$ 节点，接下去的游戏：</p>
@@ -708,7 +702,7 @@ string s<span class="token punctuation">[</span>N<span class="token punctuation"
 <p>问题转化为，小 $A$ 每次能选择一个 $1$ 节点，变成 $0$ 节点。</p>
 <p>如果判定答案为 $\text{true}$，那么最优操作时，最后棋子还是能落在 $1$ 节点。</p>
 <p>设 $f[u]$ 表示若棋子最终停在 $u$ 的子树中，小$A$ 还需要额外做的最小“选择一个 $1$ 节点，变成 $0$ 节点”次数，使得无论棋子停在 $u$ 子树中什么位置，棋子停止时一定是 $0$ 节点。</p>
-<p>转移方程：$f[u] = \max{(\sum\limits_{v \in u_{son}} f[v]) - 1,0} + \text{(u is type  1  vertex)}$。</p>
+<p>转移方程：$f[u] = \max\{(\sum\limits_{v \in u_{son}} f[v]) - 1,0\} + \text{(u is type  1  vertex)}$。</p>
 <p>如果 $f[1] &gt; 0$ 那么说明，答案会变大，否则$f[u] = 0$答案将变小。</p>
 <p>时间复杂度为$O(n \log_2 A_{max})$</p>
 <h3 id="C-代码示例-6"><a href="#C-代码示例-6" class="headerlink" title="C++ 代码示例"></a>C++ 代码示例</h3><pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp"><span class="token macro property"><span class="token directive-hash">#</span> <span class="token directive keyword">include</span> <span class="token string">&lt;bits/stdc++.h&gt;</span></span>
