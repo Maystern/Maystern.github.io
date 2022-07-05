@@ -32,10 +32,14 @@
 
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
-<meta name="generator" content="Hexo 6.2.0">
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="Maystern 的博客" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Maystern 的博客" type="application/atom+xml">
 </head>
+
+  <!-- 今日诗词特效 -->
+  <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+
 
 
 <body>
@@ -242,26 +246,25 @@
 
             <div class="description center-align">
                 
-                <span id="subtitle"></span>
-                <script src="/libs/typed/typed.js"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: [ 
-                            
-                                "从来没有真正的绝境, 只有心灵的迷途",
-                            
-                                "Never really desperate, only the lost of the soul",
-                            
-                        ],
-                        startDelay: 300,
-                        typeSpeed: 100,
-                        loop: true,
-                        backSpeed: 50,
-                        showCursor: true
-                    });
-                </script>
-                
-            </div>
+                    <span id="subtitle"></span>
+                    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                   <script>
+                       var typed = new Typed("#subtitle", {
+                           strings: ['志之所向，金石为开，谁能御之？',
+                                     '花开不是为了花落，而是为了开的更加灿烂。',
+                                     '没有伞的孩子必须努力奔跑！',
+                                     '欲望以提升热忱，毅力以磨平高山。',
+                                     '如果放弃太早，你永远都不知道自己会错过什么。',
+                                     '没有礁石，就没有美丽的浪花；没有挫折，就没有壮丽的人生。'],
+                            startDelay: 300,
+                            typeSpeed: 100,
+                            loop: true,   
+                            backSpeed: 50,
+                            showCursor: true
+                         });
+                     </script>
+                 
+           </div>
         </div>
     </div>
 </div>
@@ -486,7 +489,7 @@
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2019-2022</span>
+                <span id="year">2022</span>
             
             <a href="/about" target="_blank">Maystern</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
@@ -736,7 +739,20 @@ $(function () {
     
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
-
+    <!-- 天气接口 -->
+    
+    <!-- 天气接口-->
+<script type="text/javascript">
+    WIDGET = {FID: '1tFpFZ5Mtj'}
+  </script>
+<script type="text/javascript">
+    //只在桌面版网页启用特效
+    var windowWidth = $(window).width();
+    if (windowWidth > 768) {
+        document.write('<script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"><\/script>');
+        }
+  </script>
+    
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
         tex2jax: {
@@ -756,3 +772,9 @@ $(function () {
 </body>
 
 </html>
+
+  <!-- 动态标题 -->
+  <script type="text/javascript"> var OriginTitile = document.title, st; 
+    document.addEventListener("visibilitychange", function () { document.hidden ? (document.title = "Σ(っ °Д °;)っ肿么不在看我！", clearTimeout(st)) : (document.title = "φ(゜▽゜*)♪哈哈你来啦！", st = setTimeout(function () { document.title = OriginTitile }, 3e3)) }) </script>
+    
+
