@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, Maystern 的博客">
-    <meta name="description" content="这是的我博客发布的第一篇文章，用来测试博客的运行情况。欢迎来到Maystern的博客，我也非常欢迎您关注我的博客！">
+    <meta name="keywords" content="关于自己未来的目标, Maystern 的博客">
+    <meta name="description" content="大一生活结束，我自己需要对我未来的学习进行一些规划。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -19,7 +19,7 @@
 
     
 
-    <title>Hello World | Maystern 的博客</title>
+    <title>关于自己未来的目标 | Maystern 的博客</title>
     <link rel="icon" type="image/jpeg" href="/favicon.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -231,12 +231,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title">关于自己未来的目标</h1>
                 </div>
             </div>
         </div>
@@ -246,10 +246,104 @@
 
 
 
-<main class="container content">
+<main class="post-container content">
 
     
-    <!-- 文章内容详情 -->
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
@@ -258,16 +352,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E6%96%B0%E6%89%8B/">
-                                <span class="chip bg-color">新手</span>
-                            </a>
-                        
-                            <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                                <span class="chip bg-color">博客</span>
-                            </a>
-                        
                             <a href="/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/">
                                 <span class="chip bg-color">自我介绍</span>
+                            </a>
+                        
+                            <a href="/tags/%E8%A7%84%E5%88%92/">
+                                <span class="chip bg-color">规划</span>
                             </a>
                         
                     </div>
@@ -278,8 +368,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%8D%9A%E5%AE%A2/" class="post-category">
-                                博客
+                            <a href="/categories/%E5%A4%A7%E5%AD%A6%E8%A7%84%E5%88%92/" class="post-category">
+                                大学规划
                             </a>
                         
                     </div>
@@ -291,28 +381,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2018-09-07
+                    2022-07-07
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-07-05
+                    2022-07-07
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    73
+                    1.1k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    4 分
                 </div>
                 
 
@@ -335,15 +425,213 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+                <h1 id="关于自己未来的目标"><a href="#关于自己未来的目标" class="headerlink" title="关于自己未来的目标"></a>关于自己未来的目标</h1><h2 id="我为什么退出-ACM-竞赛"><a href="#我为什么退出-ACM-竞赛" class="headerlink" title="我为什么退出 ACM 竞赛"></a>我为什么退出 ACM 竞赛</h2><p>大一一年的 ACM 经历，打了两场 ACM 竞赛，并没有获得什么成绩。相反随着加入时间的变长，自己感受到了很大的压力。这些压力是来自于多方面的，其一是来自身边同学的压力，SUSTech - ACM 竞赛队中的人都是非常强的同学；其二是来自学业方面的压力，大一一年的绩点，虽然是 3.735 / 4.0，在所有同学中，大概是 216 / 1165，大约是 18.54 %，虽然能拿到保研名额，但是还不足以让自己能进入比较好的学校；其三是自己和ACM队教练的关系不是非常融洽，code for win 还是 code for fun 之间的观念出现了碰撞。因为这样很多的原因和未来的规划，我打算离开ACM队，希望在大学第二年能努力刷高绩点，保研的时候获得更好的offer。</p>
+<h2 id="我未来的规划是什么"><a href="#我未来的规划是什么" class="headerlink" title="我未来的规划是什么"></a>我未来的规划是什么</h2><p>首先，由于内心的不坚定，错过了计算机系 1+3 的报名。因此， 我希望能在 2 + 2 是时候，顺利进入南科大的计算机科学与工程系，修读计算机科学与技术专业。</p>
+<p>未来选择的目标还是：国内保研C9 &gt; 出国留学 ≈ 就业 &gt; 保研本校。</p>
+<p>就短期计划而言，大二这一年，最主要的目标就是两个，一个是绩点，另外一个是英语。</p>
+<p>在绩点方面，在重要的专业课的学习中，获得更好的分数（A 级别），从而提高自己在计算机系的排名。作为目标，我希望通过大二一年的学习，将绩点的绝对值在 3.8 以上（这意味着如果大二修读的计入参与 13 级GPA的学分与大一相同 42 分，大二的两学期 GPA 必须在 3.865 以上），相对值在计算机系 5% 以内。</p>
+<p>在英语学习方面，首要的目标就是通过英语 4 级，刷高英语 6 级，可以尝试雅思和托福的考试。这对我自己而言是非常困难的，需要花费非常非常大的努力。</p>
+<p>在保证绩点和英语的前提下，扩充自己的简历，参加更多的比赛，争取能获得一些国家级别奖项，省级别的奖项，并为大二升大三的暑期科研打好基础。</p>
+<h2 id="选课"><a href="#选课" class="headerlink" title="选课"></a>选课</h2><ul>
+<li>大一上学期选择的计入 GPA 的科目：一共选择的学分 18 分，平均绩点为 3.70。</li>
+</ul>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>科目</th>
+<th>学分</th>
+<th>成绩</th>
+<th>等级</th>
+<th>GPA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SUSTech English II</td>
+<td>4</td>
+<td>87</td>
+<td>B+</td>
+<td>3.73</td>
+</tr>
+<tr>
+<td>计算机程序设计基础A</td>
+<td>3</td>
+<td>94</td>
+<td>A</td>
+<td>3.94</td>
+</tr>
+<tr>
+<td>体育I</td>
+<td>1</td>
+<td>100</td>
+<td>A+</td>
+<td>4.00</td>
+</tr>
+<tr>
+<td>高等数学（上）A</td>
+<td>4</td>
+<td>81</td>
+<td>B-</td>
+<td>3.32</td>
+</tr>
+<tr>
+<td>大学物理 B(上)</td>
+<td>4</td>
+<td>87</td>
+<td>B+</td>
+<td>3.73</td>
+</tr>
+<tr>
+<td>基础物理实验</td>
+<td>2</td>
+<td>92</td>
+<td>A-</td>
+<td>3.85</td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul>
+<li>大一下学期选择的计入 GPA 的科目：一共选择的学分 24 分，平均绩点为 3.76。</li>
+</ul>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>科目</th>
+<th>学分</th>
+<th>成绩</th>
+<th>等级</th>
+<th>GPA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>生命科学概论</td>
+<td>3</td>
+<td>88</td>
+<td>B+</td>
+<td>3.73</td>
+</tr>
+<tr>
+<td>SUSTech English III</td>
+<td>4</td>
+<td>91</td>
+<td>A-</td>
+<td>3.85</td>
+</tr>
+<tr>
+<td>体育II</td>
+<td>1</td>
+<td>97</td>
+<td>A+</td>
+<td>100</td>
+</tr>
+<tr>
+<td>思想道德与法治</td>
+<td>2</td>
+<td>93</td>
+<td>A</td>
+<td>3.94</td>
+</tr>
+<tr>
+<td>马克思主义基本原理</td>
+<td>2</td>
+<td>97</td>
+<td>A+</td>
+<td>4.00</td>
+</tr>
+<tr>
+<td>高等数学（下）A</td>
+<td>4</td>
+<td>99</td>
+<td>A+</td>
+<td>4.00</td>
+</tr>
+<tr>
+<td>线性代数 A</td>
+<td>4</td>
+<td>90</td>
+<td>A-</td>
+<td>3.85</td>
+</tr>
+<tr>
+<td>大学物理 B(下)</td>
+<td>4</td>
+<td>78</td>
+<td>C+</td>
+<td>3.09</td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul>
+<li>大二上学期我应该会选择 23 学分（也许会更多…）的课程，并且尝试获得更好的成绩。</li>
+</ul>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>科目</th>
+<th>学分</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>EAP</td>
+<td>2</td>
+</tr>
+<tr>
+<td>C/C++程序设计</td>
+<td>3</td>
+</tr>
+<tr>
+<td>计算机科学与技术前沿讲座</td>
+<td>1</td>
+</tr>
+<tr>
+<td>中国近现代史纲要</td>
+<td>2</td>
+</tr>
+<tr>
+<td>数据结构与算法分析</td>
+<td>3</td>
+</tr>
+<tr>
+<td>数字逻辑</td>
+<td>3</td>
+</tr>
+<tr>
+<td>离散数学</td>
+<td>3</td>
+</tr>
+<tr>
+<td>概率论与数理统计</td>
+<td>3</td>
+</tr>
+<tr>
+<td>体育III</td>
+<td>1</td>
+</tr>
+<tr>
+<td>艺术与科学大讲堂</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="获奖"><a href="#获奖" class="headerlink" title="获奖"></a>获奖</h2><h3 id="竞赛获奖"><a href="#竞赛获奖" class="headerlink" title="竞赛获奖"></a>竞赛获奖</h3><ul>
+<li>2021-2022年度第三届全国大学生算法设计与编程挑战赛（秋季赛） 铜奖</li>
+<li>2021-2022年度第三届全国大学生算法设计与编程挑战赛（冬季赛） 银奖</li>
+<li>十三届蓝桥杯全国软件和信息技术专业人才大赛广东赛区C/C++程序设计打算A组一等奖</li>
+<li>南方科技大学 第四届南方科技大学程序设计竞赛 银奖</li>
+</ul>
+<h3 id="文体奖项"><a href="#文体奖项" class="headerlink" title="文体奖项"></a>文体奖项</h3><ul>
+<li>南方科技大学 2021 足球新生杯 冠军</li>
+<li>南科乒乓2022“筑梦杯”乒乓球锦标赛 冠军</li>
+<li>南方科技大学 2021 乒乓球迎新赛 男子单打 第五名</li>
+</ul>
 
                 
             </div>
@@ -370,7 +658,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://maystern.github.io/2018/09/07/hello-world/">http://maystern.github.io/2018/09/07/hello-world/</a>
+                    <a href="http://maystern.github.io/2022/07/07/%E5%85%B3%E4%BA%8E%E8%87%AA%E5%B7%B1%E6%9C%AA%E6%9D%A5%E7%9A%84%E7%9B%AE%E6%A0%87/">http://maystern.github.io/2022/07/07/%E5%85%B3%E4%BA%8E%E8%87%AA%E5%B7%B1%E6%9C%AA%E6%9D%A5%E7%9A%84%E7%9B%AE%E6%A0%87/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -408,16 +696,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E6%96%B0%E6%89%8B/">
-                                    <span class="chip bg-color">新手</span>
-                                </a>
-                            
-                                <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                                    <span class="chip bg-color">博客</span>
-                                </a>
-                            
                                 <a href="/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/">
                                     <span class="chip bg-color">自我介绍</span>
+                                </a>
+                            
+                                <a href="/tags/%E8%A7%84%E5%88%92/">
+                                    <span class="chip bg-color">规划</span>
                                 </a>
                             
                         </div>
@@ -866,9 +1150,64 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2022/07/07/%E5%85%B3%E4%BA%8E%E8%87%AA%E5%B7%B1%E6%9C%AA%E6%9D%A5%E7%9A%84%E7%9B%AE%E6%A0%87/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="关于自己未来的目标">
+                        
+                        <span class="card-title">关于自己未来的目标</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            大一生活结束，我自己需要对我未来的学习进行一些规划。
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-07
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E5%A4%A7%E5%AD%A6%E8%A7%84%E5%88%92/" class="post-category">
+                                    大学规划
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/">
+                        <span class="chip bg-color">自我介绍</span>
+                    </a>
+                    
+                    <a href="/tags/%E8%A7%84%E5%88%92/">
+                        <span class="chip bg-color">规划</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2022/07/06/AtCoder%20Beginner%20Contest%20246%20Solution/">
                     <div class="card-image">
@@ -886,9 +1225,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-07-06
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-06
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -910,64 +1249,6 @@
                     
                     <a href="/tags/ABC/">
                         <span class="chip bg-color">ABC</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/2018/09/07/hello-world/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
-                        
-                        <span class="card-title">Hello World</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            这是的我博客发布的第一篇文章，用来测试博客的运行情况。欢迎来到Maystern的博客，我也非常欢迎您关注我的博客！
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2018-09-07
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E5%8D%9A%E5%AE%A2/" class="post-category">
-                                    博客
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E6%96%B0%E6%89%8B/">
-                        <span class="chip bg-color">新手</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                        <span class="chip bg-color">博客</span>
-                    </a>
-                    
-                    <a href="/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/">
-                        <span class="chip bg-color">自我介绍</span>
                     </a>
                     
                 </div>
@@ -1005,6 +1286,87 @@
 <script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
 
 
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
 
     
 

@@ -6,7 +6,7 @@
   <link href="http://maystern.github.io/atom.xml" rel="self"/>
   
   <link href="http://maystern.github.io/"/>
-  <updated>2022-07-05T17:10:10.946Z</updated>
+  <updated>2022-07-06T19:28:09.708Z</updated>
   <id>http://maystern.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于自己未来的目标</title>
+    <link href="http://maystern.github.io/2022/07/07/%E5%85%B3%E4%BA%8E%E8%87%AA%E5%B7%B1%E6%9C%AA%E6%9D%A5%E7%9A%84%E7%9B%AE%E6%A0%87/"/>
+    <id>http://maystern.github.io/2022/07/07/%E5%85%B3%E4%BA%8E%E8%87%AA%E5%B7%B1%E6%9C%AA%E6%9D%A5%E7%9A%84%E7%9B%AE%E6%A0%87/</id>
+    <published>2022-07-06T19:22:00.000Z</published>
+    <updated>2022-07-06T19:28:09.708Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;关于自己未来的目标&quot;&gt;&lt;a href=&quot;#关于自己未来的目标&quot; class=&quot;headerlink&quot; title=&quot;关于自己未来的目标&quot;&gt;&lt;/a&gt;关于自己未来的目标&lt;/h1&gt;&lt;h2 id=&quot;我为什么退出-ACM-竞赛&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="大学规划" scheme="http://maystern.github.io/categories/%E5%A4%A7%E5%AD%A6%E8%A7%84%E5%88%92/"/>
+    
+    
+    <category term="自我介绍" scheme="http://maystern.github.io/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/"/>
+    
+    <category term="规划" scheme="http://maystern.github.io/tags/%E8%A7%84%E5%88%92/"/>
+    
+  </entry>
   
   <entry>
     <title>AtCoder Beginner Contest 246 Solution</title>
